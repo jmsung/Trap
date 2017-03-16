@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>10000.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -44,7 +44,7 @@
 </Refnum>
 <U32>
 <Name>Samples to Save</Name>
-<Val>100000</Val>
+<Val>1000</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
