@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>16.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>2</NumElts>
@@ -13,15 +13,15 @@
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
-<Val>8.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min Input</Name>
-<Val>-8.00000000000000</Val>
+<Val>-1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>10000.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -32,7 +32,7 @@
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>9</NumElts>
+<NumElts>2</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
@@ -42,34 +42,6 @@
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
-<U32>
-<Name>Samples to Save</Name>
-<Val>500</Val>
-</U32>
-<U32>
-<Name>Trigger - Time</Name>
-<Val>1</Val>
-</U32>
-<DBL>
-<Name>Trigger - Threshold</Name>
-<Val>2.00000000000000</Val>
-</DBL>
-<U32>
-<Name>Trigger - Channel</Name>
-<Val>0</Val>
-</U32>
-<Boolean>
-<Name>Enable Time Trigger</Name>
-<Val>0</Val>
-</Boolean>
-<Boolean>
-<Name>Enable Threshold Trigger</Name>
-<Val>0</Val>
-</Boolean>
-<Boolean>
-<Name>Always Log</Name>
-<Val>1</Val>
-</Boolean>
 </Cluster>
 </Cluster>
 </LVData>
