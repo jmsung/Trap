@@ -38,6 +38,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
+		<Item Name="tmp727.tmp.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/tmp727.tmp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -309,6 +310,24 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Logging State.ctl" Type="VI" URL="../controls/Logging State.ctl"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Settings/Settings.ctl"/>
+			<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Acquisition/Hardware Configuration.ctl"/>
+			<Item Name="Logging Configuration.ctl" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Logging/Logging Configuration.ctl"/>
+			<Item Name="UI State.ctl" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/controls/UI State.ctl"/>
+			<Item Name="Dequeue Message.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Message Queue/Dequeue Message.vi"/>
+			<Item Name="Create User Event - Stop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/User Event - Stop/Create User Event - Stop.vi"/>
+			<Item Name="Create All Message Queues.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Message Queue/Create All Message Queues.vi"/>
+			<Item Name="Enqueue Message.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Message Queue/Enqueue Message.vi"/>
+			<Item Name="Enqueue Message (Single).vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Message Queue/Enqueue Message (Single).vi"/>
+			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Error Handler - Event Handling Loop.vi"/>
+			<Item Name="Logging Message Loop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Logging/Logging Message Loop.vi"/>
+			<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Acquisition/Acquisition Message Loop.vi"/>
+			<Item Name="Load Settings from XML.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Settings/Load Settings from XML.vi"/>
+			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Settings Dialog.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/Settings/Settings Dialog.vi"/>
+			<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/User Event - Stop/Fire User Event - Stop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../../../Users/Valelab/AppData/Local/Temp/support/User Event - Stop/Destroy User Event - Stop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">

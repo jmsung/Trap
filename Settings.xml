@@ -21,18 +21,16 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>100.00000000000000</Val>
+<Val>10000.00000000000000</Val>
 </DBL>
-<Refnum>
-<Name>DAQmx Task</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
+<String>
+<Name>Channel description</Name>
 <Val></Val>
-</Refnum>
+</String>
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
@@ -42,6 +40,14 @@
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
+<String>
+<Name>User</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Data description</Name>
+<Val></Val>
+</String>
 </Cluster>
 </Cluster>
 </LVData>
