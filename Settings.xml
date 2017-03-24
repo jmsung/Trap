@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Channel</Name>
-<Val>DAQ/ai0:2</Val>
+<Val>DAQ/ai0:8</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
