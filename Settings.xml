@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>49999.99999999999990</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
