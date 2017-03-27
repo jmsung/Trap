@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>1000.00000000000000</Val>
+<Val>10000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -32,16 +32,64 @@
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>2</NumElts>
+<NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\Test.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
+<Array>
+<Name>Channel names</Name>
+<Dimsize>9</Dimsize>
+<String>
+<Name>String</Name>
+<Val>B1X</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B1Y</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B1S</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B2X</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B2Y</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B2S</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTX</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTY</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTZ</Val>
+</String>
+</Array>
+<String>
+<Name>Author</Name>
+<Val>Jongmin </Val>
+</String>
+<String>
+<Name>Description</Name>
+<Val>Trap test</Val>
+</String>
 </Cluster>
 </Cluster>
 </LVData>
