@@ -3,21 +3,21 @@
 <Version>16.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>2</NumElts>
+<NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>5</NumElts>
 <DAQChannel>
-<Name>DAQmx Channel</Name>
+<Name>DAQmx Input</Name>
 <Val>DAQ/ai0:8</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
-<Val>2.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min Input</Name>
-<Val>-2.00000000000000</Val>
+<Val>-1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\Test.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -44,52 +44,60 @@
 </Refnum>
 <Array>
 <Name>Channel names</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>0</Dimsize>
 <String>
 <Name>String</Name>
-<Val>B1X</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>B1Y</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>B1S</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>B2X</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>B2Y</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>B2S</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>PZTX</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>PZTY</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>PZTZ</Val>
+<Val></Val>
 </String>
 </Array>
 <String>
 <Name>Author</Name>
-<Val>Jongmin </Val>
+<Val>Jongmin</Val>
 </String>
 <String>
 <Name>Description</Name>
-<Val>Trap test</Val>
+<Val>Test</Val>
 </String>
+</Cluster>
+<Cluster>
+<Name>PZT Configuration </Name>
+<NumElts>8</NumElts>
+<DAQChannel>
+<Name>DAQmx Output</Name>
+<Val>DAQ/ao0:2</Val>
+</DAQChannel>
+<DBL>
+<Name>PZTX</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PZTY</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PZTZ</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Waveform Type</Name>
+<Choice>Sine Wave</Choice>
+<Choice>Triangle Wave</Choice>
+<Choice>Square Wave</Choice>
+<Choice>Sawtooth Wave</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>PZT_Amp</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PZT_Freq</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PZT_Phase</Name>
+<Val>3.00000000000000</Val>
+</DBL>
 </Cluster>
 </Cluster>
 </LVData>
