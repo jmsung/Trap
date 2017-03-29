@@ -38,6 +38,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Control.ctl" Type="VI" URL="../Control.ctl"/>
+		<Item Name="PZT_Move_Buttons (SubVI).vi" Type="VI" URL="../PZT/PZT_Move_Buttons (SubVI).vi"/>
+		<Item Name="PZT_Control.ctl" Type="VI" URL="../PZT/PZT_Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
