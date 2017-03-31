@@ -13,7 +13,7 @@
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
-<Val>1.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min Input</Name>
@@ -44,10 +44,30 @@
 </Refnum>
 <Array>
 <Name>Channel names</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>6</Dimsize>
 <String>
 <Name>String</Name>
-<Val></Val>
+<Val>B1X</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B1Y</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>B1S</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTX</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTY</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>PZTZ</Val>
 </String>
 </Array>
 <String>
