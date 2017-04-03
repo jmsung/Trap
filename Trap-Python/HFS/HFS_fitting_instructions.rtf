@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh14500\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 Harmonic Force Spectroscopy
+\b0 : 
+\b Fitting
+\b0 \
+\
+Instructions for use\
+\
+Kim I. Mortensen\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\i \cf0 These instructions assume that detection and analysis of binding events in a Harmonic Force Spectroscopy experiment has already been done as described in the instructions to Harmonic Force Spectroscopy: Automatic event detection. 
+\i0 \
+\
+1. It is assumed that the file structure complies with the descriptions in 
+\i Harmonic Force Spectroscopy: Automatic event detection
+\i0 : In your main folder for the HFS analysis, place all the python files. In this folder, for each molecule to be analyzed, make a folder called, e.g., 
+\i Molecule_x
+\i0 .\
+\
+2. Open 
+\i HFS_fitting.py
+\i0 . In the top of the script there is a section named 
+\i USER INPUT
+\i0 . Here, the sampling frequency should be input. For each molecule, a number of parameters must be specified: Directory is the folder mentioned in (1); setup of the bins on the force axis; upper and lower cut-offs on the binding time axis; the oscillation frequency of the experiment; a cut-off for variances of binding and release times of the two beads; a cut-off on the average chi-square described in the instructions for 
+\i Harmonic Force Spectroscopy: Automatic event detection. 
+\i0 Note that the lower cut-off on the binding times must be equal to the period of the oscillations. \
+\
+3. For analysis of several molecules, make an identical block of statements for each molecule and add the variable name of each molecule to the list of molecules to be analyzed below the blocks for the individual molecules.\
+\
+4. At the end of the 
+\i USER INPUT
+\i0  section, there are two more variables that the user may change. They allow the user to, respectively, increase the width of the bins on the time axis to an integer number times the oscillation period and increase the lower cut-off on the time axis to an integer number times the lower time cut-off defined above. Please, note that our previous analysis shows that one does gain anything by increasing these numbers above their default values of one. They are included for possible tests of robustness. \
+\
+5. Run the code. For each molecule,maximum likelihood estimation of the release rates for the individual bins on the force axis is performed. Then, based on these rates, maximum likelihood estimation determines the parameters k_0 and delta. These values are printed to the screen along with their statistical uncertainties. This process is illustrated with the following figures: The first figure shows (upper left) the binding times inferred from each bead as a function of mean force for each bead (red and blue points); (upper right) the mean binding times for each event as a function of the total mean force (black points); (lower left) the force amplitude from each bead as a function of mean force for each bead (red and blue points); (lower right) the total force amplitude as a function of the total mean force (black points). Then, for each bin on the force axis, a histogram of binding times with total mean forces falling in that force bin is shown. The fit of an exponential distribution is shown on top (black). In the last figure, the estimated release rates are shown as a function of the mean force (black points), and the fit of the load-dependent release rate under harmonically oscillating load is shown on top (red). \
+\
+6. Check the experimental output for agreement with the fitted theoretical curves.  If necessary, tune cut-offs and run the code again.\
+}
