@@ -12,9 +12,9 @@ def runningMean(x, N):
     return np.convolve(x, np.ones((N,))/N, mode='valid')
     
 ############### User Input ##############################
-fname = "Cal_2017_03_30_12_20_05.tdms"
-index = range(0, 1000000)
-N = 100
+fname = "Cal_2017_03_31_14_39_21.tdms"
+index = range(0, 100000)
+N = 1
 ############### End of User Input #######################
 
 # File information below
@@ -39,8 +39,7 @@ x = np.empty([len(channels),len(index)]) # Make a 2D array (ch, timetrace) for t
 for i, channel in enumerate(channels):
     x[i,:] = channel.data[index] #Get data (time trace) for each channel
 t = channels[0].time_track()[index]
-x[4,:] = x[3,:]
-x[3,:] = x[5,:]
+
 
 y = x[1]
 my = runningMean(y, N)
@@ -55,6 +54,7 @@ idx = np.argsort(f)
 mps = runningMean(ps[idx], N)
 mf = runningMean(f[idx], N)
 midx = np.argsort(mf)
+# midx = midx[1000:]
 
 # Plot
 plt.close('all')
