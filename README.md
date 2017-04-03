@@ -1,4 +1,2 @@
 # Trap
-Trap software for ValeTrap \n
-Trap-Labview: Hardware controllers \n
-Trap-Python: Data analysis
+Trap software for ValeTrap, Trap-Labview: Hardware controllers, Trap-Python: Data analysis
