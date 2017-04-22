@@ -13,15 +13,15 @@
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
-<Val>10.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min Input</Name>
-<Val>-10.00000000000000</Val>
+<Val>-1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>4000.00000000000000</Val>
+<Val>39999.99999999999990</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
