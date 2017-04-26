@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\LogTest.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
