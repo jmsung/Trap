@@ -12,8 +12,9 @@ def runningMean(x, N):
     return np.convolve(x, np.ones((N,))/N, mode='valid')
     
 ############### User Input ##############################
-fname = "Cal_2017_03_31_14_39_21.tdms"
+fname = "test_2017_05_01_11_43_15.tdms"
 index = range(0, 100000)
+index_all = True
 N = 1
 ############### End of User Input #######################
 
@@ -34,6 +35,9 @@ print "Channel name: %s" % channel_name
 print "Sampling rate: %d Hz" % fs
 
 # Get data
+if index_all == True:
+    index = range(0, len(channels[0].time_track()))
+
 x = np.empty([len(channels),len(index)]) # Make a 2D array (ch, timetrace) for trap data
 
 for i, channel in enumerate(channels):
