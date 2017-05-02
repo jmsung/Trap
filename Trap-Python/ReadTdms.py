@@ -12,10 +12,10 @@ def runningMean(x, N):
     return np.convolve(x, np.ones((N,))/N, mode='valid')
     
 ############### User Input ##############################
-fname = "test_2017_05_01_15_53_25.tdms"
-index = range(0, 100000)
-index_all = True
-N = 1
+fname = "test_2017_05_02_13_23_17.tdms"
+index = range(0, 40000)
+index_all = False
+N = 10
 ############### End of User Input #######################
 
 # File information below
