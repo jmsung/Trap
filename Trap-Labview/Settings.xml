@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0:1, DAQ/ai3:4, DAQ/ai2, DAQ/ai5:8</Val>
+<Val>DAQ/ai0:8</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -79,7 +79,7 @@
 </String>
 <String>
 <Name>String</Name>
-<Val>PZTX</Val>
+<Val>PZTZ</Val>
 </String>
 </Array>
 <String>
