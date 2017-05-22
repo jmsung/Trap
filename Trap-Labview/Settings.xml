@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>30000.00000000000000</Val>
+<Val>39999.99999999999990</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -84,11 +84,11 @@
 </Array>
 <String>
 <Name>Author</Name>
-<Val>Jongmin Sung</Val>
+<Val>Hi</Val>
 </String>
 <String>
 <Name>Description</Name>
-<Val>Test..</Val>
+<Val>xxx</Val>
 </String>
 </Cluster>
 </Cluster>
