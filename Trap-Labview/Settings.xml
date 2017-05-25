@@ -13,11 +13,11 @@
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
-<Val>1.00000000000000</Val>
+<Val>0.30000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min Input</Name>
-<Val>-1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
