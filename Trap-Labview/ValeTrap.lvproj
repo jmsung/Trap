@@ -32,6 +32,12 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
 		</Item>
+		<Item Name="TrapControllers" Type="Folder">
+			<Item Name="PZT" Type="Folder">
+				<Item Name="PZT_oscillation.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_oscillation.vi"/>
+				<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_SignalGenerator.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
@@ -302,10 +308,6 @@
 				<Item Name="WDT Append Waveforms I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I16.vi"/>
 				<Item Name="WDT Append Waveforms I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I32.vi"/>
 				<Item Name="WDT Append Waveforms I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I64.vi"/>
-				<Item Name="subCollector.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/SampleCompressionBlock.llb/subCollector.vi"/>
-				<Item Name="subDataReductionHistory.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/SampleCompressionConfig.llb/subDataReductionHistory.vi"/>
-				<Item Name="subExCollector3.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/SampleCompressionConfig.llb/subExCollector3.vi"/>
-				<Item Name="subLast.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/SampleCompressionConfig.llb/subLast.vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
@@ -362,8 +364,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_SignalGenerator.vi"/>
-			<Item Name="PZT_oscillation_stop.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_oscillation_stop.vi"/>
 			<Item Name="PZT_Control.ctl" Type="VI" URL="../PZT/PZT_Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
