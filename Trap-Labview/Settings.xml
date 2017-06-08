@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0:7, DAQ/ai16</Val>
+<Val>DAQ/ai0:7, DAQ/ai16:17</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -44,7 +44,7 @@
 </Refnum>
 <Array>
 <Name>Channel names</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>10</Dimsize>
 <String>
 <Name>String</Name>
 <Val>B1X</Val>
@@ -80,6 +80,10 @@
 <String>
 <Name>String</Name>
 <Val>PZTZ</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Trap_Power</Val>
 </String>
 </Array>
 <String>
