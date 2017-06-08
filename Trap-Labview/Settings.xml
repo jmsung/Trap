@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>39999.99999999999990</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\17-06-08 Trap power\power.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -92,7 +92,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>test</Val>
+<Val>Trap power record</Val>
 </String>
 </Cluster>
 </Cluster>
