@@ -21,12 +21,12 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
-			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Set Enable State on Multiple Controls.vi"/>
-			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
-			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../TrapSignal/support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../TrapSignal/support/User Event - Stop/User Event - Stop.lvlib"/>
+			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../TrapSignal/support/Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../TrapSignal/support/Check Loop Error.vi"/>
+			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../TrapSignal/support/Error Handler - Event Handling Loop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../TrapSignal/support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
