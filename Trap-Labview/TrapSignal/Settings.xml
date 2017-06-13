@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0:7, DAQ/ai17</Val>
+<Val>DAQ/ai0:7, DAQ/ai16:17</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\17-06-08 Trap power\power.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -44,7 +44,7 @@
 </Refnum>
 <Array>
 <Name>Channel names</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>10</Dimsize>
 <String>
 <Name>String</Name>
 <Val>B1X</Val>
@@ -81,6 +81,10 @@
 <Name>String</Name>
 <Val>PZTZ</Val>
 </String>
+<String>
+<Name>String</Name>
+<Val>Trap_Power</Val>
+</String>
 </Array>
 <String>
 <Name>Author</Name>
@@ -88,7 +92,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Test</Val>
+<Val>Trap power record</Val>
 </String>
 </Cluster>
 </Cluster>
