@@ -34,8 +34,8 @@
 		</Item>
 		<Item Name="TrapControllers" Type="Folder">
 			<Item Name="PZT" Type="Folder">
-				<Item Name="PZT_oscillation.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_oscillation.vi"/>
-				<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PI_PZT controller/PZT_SignalGenerator.vi"/>
+				<Item Name="PZT_oscillation.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_oscillation.vi"/>
+				<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_SignalGenerator.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
