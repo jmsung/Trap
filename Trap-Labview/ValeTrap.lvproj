@@ -609,6 +609,41 @@
 				<Item Name="ex_BackUpExistFileTDMS.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_BackUpExistFileTDMS.vi"/>
 				<Item Name="ex_createNewChannelsTDMS.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_TDMS/ex_createNewChannelsTDMS.vi"/>
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
+				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
+				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Init.vi"/>
+				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Close Serial Driver.vi"/>
+				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Write.vi"/>
+				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
+				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Read.vi"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ctl_OperatingMode.ctl" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/ctl_OperatingMode.ctl"/>
+				<Item Name="NP_Logging.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/NP_Logging.vi"/>
+				<Item Name="_Create Instrument Channel.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_Create Instrument Channel.vi"/>
+				<Item Name="_Parse Instrument Channel.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_Parse Instrument Channel.vi"/>
+				<Item Name="_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_SendCommand.vi"/>
+				<Item Name="_ReadCommand.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_ReadCommand.vi"/>
+				<Item Name="_GetStatusByte.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_GetStatusByte.vi"/>
+				<Item Name="_QueryCommand.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_QueryCommand.vi"/>
+				<Item Name="CONEX-CC Get Stage Identifier v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Stage Identifier v2.vi"/>
+				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
+				<Item Name="FindInstrument.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/FindInstrument.vi"/>
+				<Item Name="Connect Newport Instrument.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Connect Newport Instrument.vi"/>
+				<Item Name="CONEX-CC Get Positioner Error And Controller State v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Positioner Error And Controller State v2.vi"/>
+				<Item Name="_Close Communications.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_Close Communications.vi"/>
+				<Item Name="CONEX-CC Get Current Position v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Current Position v2.vi"/>
+				<Item Name="CONEX-CC Relative Move v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Relative Move v2.vi"/>
+				<Item Name="CONEX-CC Set Positive Software Limit v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Set Positive Software Limit v2.vi"/>
+				<Item Name="CONEX-CC Set Velocity v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Set Velocity v2.vi"/>
+				<Item Name="CONEX-CC Set Negative Software Limit v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Set Negative Software Limit v2.vi"/>
+				<Item Name="CONEX-CC Absolute Move v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Absolute Move v2.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
