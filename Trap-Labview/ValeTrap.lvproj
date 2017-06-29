@@ -623,9 +623,8 @@
 				<Item Name="_ReadCommand.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_ReadCommand.vi"/>
 				<Item Name="_GetStatusByte.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_GetStatusByte.vi"/>
 				<Item Name="_QueryCommand.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_QueryCommand.vi"/>
-				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
 				<Item Name="FindInstrument.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/FindInstrument.vi"/>
-				<Item Name="Connect Newport Instrument.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Connect Newport Instrument.vi"/>
+				<Item Name="Connect Newport Instrument1.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Connect Newport Instrument1.vi"/>
 				<Item Name="_Close Communications.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/_Close Communications.vi"/>
 				<Item Name="CONEX-CC Get Current Position v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Current Position v2.vi"/>
 				<Item Name="CONEX-CC Relative Move v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Relative Move v2.vi"/>
@@ -633,6 +632,7 @@
 				<Item Name="CONEX-CC Set Velocity v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Set Velocity v2.vi"/>
 				<Item Name="CONEX-CC Set Negative Software Limit v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Set Negative Software Limit v2.vi"/>
 				<Item Name="CONEX-CC Absolute Move v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Absolute Move v2.vi"/>
+				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
