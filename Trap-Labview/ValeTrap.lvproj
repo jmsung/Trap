@@ -44,7 +44,6 @@
 		<Item Name="Main.vi" Type="VI" URL="../TrapSignal/Main.vi"/>
 		<Item Name="Trap_Labview_Python.py" Type="Document" URL="../Python_Integration_Toolkit/Trap_Labview_Python.py"/>
 		<Item Name="TrapControllers.vi" Type="VI" URL="../TrapControllers/TrapControllers.vi"/>
-		<Item Name="Sample Controller Init.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Sample Controller Init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -634,12 +633,15 @@
 				<Item Name="CONEX-CC Absolute Move v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Absolute Move v2.vi"/>
 				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
 				<Item Name="VisaInit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaInit.vi"/>
-				<Item Name="Read Version.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Version.vi"/>
 				<Item Name="VisaCommWrapper.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaCommWrapper.vi"/>
-				<Item Name="Set Controller Address.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Controller Address.vi"/>
 				<Item Name="Read Error.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Error.vi"/>
 				<Item Name="CONEX-CC Get Velocity v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Velocity v2.vi"/>
 				<Item Name="NP_Logging.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/NP_Logging.vi"/>
+				<Item Name="Motor ON.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor ON.vi"/>
+				<Item Name="Read Controller Status.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Controller Status.vi"/>
+				<Item Name="Read Position.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Position.vi"/>
+				<Item Name="Motion, Relative.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motion, Relative.vi"/>
+				<Item Name="Motor OFF.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor OFF.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
