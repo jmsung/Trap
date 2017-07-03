@@ -634,14 +634,14 @@
 				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
 				<Item Name="VisaInit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaInit.vi"/>
 				<Item Name="VisaCommWrapper.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaCommWrapper.vi"/>
-				<Item Name="Read Error.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Error.vi"/>
 				<Item Name="CONEX-CC Get Velocity v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Velocity v2.vi"/>
 				<Item Name="NP_Logging.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/NP_Logging.vi"/>
 				<Item Name="Motor ON.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor ON.vi"/>
-				<Item Name="Read Controller Status.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Controller Status.vi"/>
 				<Item Name="Read Position.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Position.vi"/>
 				<Item Name="Motion, Relative.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motion, Relative.vi"/>
 				<Item Name="Motor OFF.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor OFF.vi"/>
+				<Item Name="Set Positive Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Positive Travel Limit.vi"/>
+				<Item Name="Set Negative Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Negative Travel Limit.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
