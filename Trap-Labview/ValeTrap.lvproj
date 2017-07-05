@@ -651,6 +651,15 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="InitMultipleDevices.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/InitMultipleDevices.vi"/>
+			<Item Name="CmdLib.dll" Type="Document" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/CmdLib.dll"/>
+			<Item Name="DeviceOpen.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/DeviceOpen.vi"/>
+			<Item Name="GetMasterDeviceAddress.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/GetMasterDeviceAddress.vi"/>
+			<Item Name="GetIdentification.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/GetIdentification.vi"/>
+			<Item Name="DeviceClose.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/DeviceClose.vi"/>
+			<Item Name="Shutdown.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/Shutdown.vi"/>
+			<Item Name="GetPosition.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/GetPosition.vi"/>
+			<Item Name="RelativeMove.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/RelativeMove.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">
