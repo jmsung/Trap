@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="9008000">
+<Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -76,6 +77,7 @@
 		<Item Name="AppendToOutput.vi" Type="VI" URL="../AppendToOutput.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="CmdLib.dll" Type="Document" URL="../CmdLib.dll"/>
+			<Item Name="CmdLib.dll" Type="Document" URL="../../../../../../Code/Apps/Utilities/Picomotor/PicomotorApp/Install/Samples/LabVIEW/Model 8742/LabVIEW 2009/CmdLib.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
