@@ -642,6 +642,7 @@
 				<Item Name="Motor OFF.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor OFF.vi"/>
 				<Item Name="Set Positive Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Positive Travel Limit.vi"/>
 				<Item Name="Set Negative Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Negative Travel Limit.vi"/>
+				<Item Name="SetZeroPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Picomotor_8742/Command VIs/SetZeroPosition.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -661,6 +662,7 @@
 			<Item Name="GetPosition.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/GetPosition.vi"/>
 			<Item Name="RelativeMove.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/RelativeMove.vi"/>
 			<Item Name="AbsoluteMove.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/AbsoluteMove.vi"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../TrapSignal/Settings/Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">
