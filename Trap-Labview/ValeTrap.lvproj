@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -660,6 +660,7 @@
 			<Item Name="Shutdown.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/Shutdown.vi"/>
 			<Item Name="GetPosition.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/GetPosition.vi"/>
 			<Item Name="RelativeMove.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/RelativeMove.vi"/>
+			<Item Name="AbsoluteMove.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Command VIs/AbsoluteMove.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">
