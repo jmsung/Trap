@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\test.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\Detection_200mA.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -92,7 +92,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Trap power record</Val>
+<Val>Detection power record (Ch1)</Val>
 </String>
 </Cluster>
 </Cluster>
