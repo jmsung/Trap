@@ -643,6 +643,7 @@
 				<Item Name="Set Positive Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Positive Travel Limit.vi"/>
 				<Item Name="Set Negative Travel Limit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Set Negative Travel Limit.vi"/>
 				<Item Name="SetZeroPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Picomotor_8742/Command VIs/SetZeroPosition.vi"/>
+				<Item Name="InitSingleDevice.vi" Type="VI" URL="/&lt;userlib&gt;/Picomotor_8742/Device VIs/InitSingleDevice.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -652,7 +653,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="InitMultipleDevices.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/InitMultipleDevices.vi"/>
 			<Item Name="CmdLib.dll" Type="Document" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/CmdLib.dll"/>
 			<Item Name="DeviceOpen.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/DeviceOpen.vi"/>
 			<Item Name="GetMasterDeviceAddress.vi" Type="VI" URL="../TrapControllers/Mirror_NewFocus_Picomotor_8742/Device VIs/GetMasterDeviceAddress.vi"/>
