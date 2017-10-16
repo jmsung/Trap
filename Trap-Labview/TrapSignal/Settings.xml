@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>17.0</Version>
+<Version>17.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>2</NumElts>
@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0:7, DAQ/ai16:17</Val>
+<Val>DAQ/ai0:5, DAQ/ai16:19</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>

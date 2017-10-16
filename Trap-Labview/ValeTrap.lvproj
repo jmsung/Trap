@@ -634,7 +634,6 @@
 				<Item Name="Dialog box to select a device.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC Virtual Front Panel.llb/Dialog box to select a device.vi"/>
 				<Item Name="VisaInit.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaInit.vi"/>
 				<Item Name="VisaCommWrapper.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/VisaCommWrapper.vi"/>
-				<Item Name="CONEX-CC Get Velocity v2.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-CC/CONEX-CC.llb/CONEX-CC Get Velocity v2.vi"/>
 				<Item Name="NP_Logging.vi" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/NP_Logging.vi"/>
 				<Item Name="Motor ON.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Motor ON.vi"/>
 				<Item Name="Read Position.vi" Type="VI" URL="/&lt;userlib&gt;/NewStep200/NSC200.llb/Read Position.vi"/>
