@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0:5, DAQ/ai16:19</Val>
+<Val>DAQ/ai0:5, DAQ/ai16:18</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -83,7 +83,7 @@
 </String>
 <String>
 <Name>String</Name>
-<Val>Trap_Power</Val>
+<Val></Val>
 </String>
 </Array>
 <String>
@@ -92,7 +92,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Detection power record (Ch1)</Val>
+<Val>test QPD1/QPD2</Val>
 </String>
 </Cluster>
 </Cluster>
