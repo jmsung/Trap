@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>39999.99999999999990</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\Detection_200mA.tdms</Val>
+<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\18-04-20 Sea urchin sperm\Trap_Sperm_1kHz.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -108,7 +108,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>test QPD1/QPD2</Val>
+<Val>Trap sea urchin sperm</Val>
 </String>
 </Cluster>
 </Cluster>
