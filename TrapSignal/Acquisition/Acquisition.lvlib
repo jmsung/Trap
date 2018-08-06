@@ -18,4 +18,7 @@
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
+	<Item Name="Waveform Averaging_S.vi" Type="VI" URL="../Waveform Averaging_S.vi"/>
+	<Item Name="Waveform Averaging_X.vi" Type="VI" URL="../Waveform Averaging_X.vi"/>
+	<Item Name="Waveform Averaging_Y.vi" Type="VI" URL="../Waveform Averaging_Y.vi"/>
 </Library>

@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0, DAQ/ai8, DAQ/ai1, DAQ/ai9, DAQ/ai2, DAQ/ai10, DAQ/ai3, DAQ/ai11, DAQ/ai4, DAQ/ai12, DAQ/ai5, DAQ/ai13, DAQ/ai6, DAQ/ai14, DAQ/ai7, DAQ/ai15, DAQ/ai16, DAQ/ai24, DAQ/ai17, DAQ/ai25,  DAQ/ai18, DAQ/ai26, DAQ/ai19, DAQ/ai27, DAQ/ai20, DAQ/ai28, DAQ/ai21, DAQ/ai29, DAQ/ai22, DAQ/ai30, DAQ/ai23, DAQ/ai31</Val>
+<Val>DAQ/ai0, DAQ/ai8, DAQ/ai1, DAQ/ai9, DAQ/ai2, DAQ/ai10, DAQ/ai16, DAQ/ai24, DAQ/ai17, DAQ/ai25,  DAQ/ai18, DAQ/ai26, DAQ/ai19, DAQ/ai27, DAQ/ai20, DAQ/ai28</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>100.00000000000000</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Desktop\Users\jmsung\Data\TrapData\Test\Trap test.tdms</Val>
+<Val>Y:\Project - Dynein\Data\2018\18-07-18 Trap 1066-Biotin\Slide3_Motor1.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -47,67 +47,67 @@
 <Dimsize>16</Dimsize>
 <String>
 <Name>String</Name>
-<Val>Ch0_B1X</Val>
+<Val>Ch0_QPD_x</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch1_B1Y</Val>
+<Val>Ch1_QPD_y</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch2_B1S</Val>
+<Val>Ch2_QPD_s</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch3_B2X</Val>
+<Val>Ch3_PZT_x</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch4_B2Y</Val>
+<Val>Ch4_PZT_y</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch5_B2S</Val>
+<Val>Ch5_PZT_z</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch6_TrapPower</Val>
+<Val>Ch6_MTA_x</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch7_Blank</Val>
+<Val>Ch7_MTA_y</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch8_PZTX</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch9_PZTY</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch10_PZTZ</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch11_MTA1X</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch12_MTA1Y</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch13_MTA2X</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch14_MTA2Y</Val>
+<Val></Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch15_Blank</Val>
+<Val></Val>
 </String>
 </Array>
 <String>
@@ -116,7 +116,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Trap test</Val>
+<Val>Test</Val>
 </String>
 </Cluster>
 </Cluster>
