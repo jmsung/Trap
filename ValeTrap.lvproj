@@ -37,6 +37,7 @@
 				<Item Name="PZT_oscillation.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_oscillation.vi"/>
 				<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_SignalGenerator.vi"/>
 			</Item>
+			<Item Name="Force.vi" Type="VI" URL="../TrapSignal/Force.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../TrapSignal/Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../TrapSignal/Logging/Logging.lvlib"/>
@@ -612,6 +613,9 @@
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Read.vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ctl_OperatingMode.ctl" Type="VI" URL="/&lt;userlib&gt;/CONEX/CONEX-General/ctl_OperatingMode.ctl"/>
