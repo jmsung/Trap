@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>Y:\Project - Dynein\Data\2018\18-08-24 Trap 1066\Trap1_M1.tdms</Val>
+<Val>Y:\Project - Dynein\Data\2018\18-09-07 Trap 1066 SA0p8\M2_stall.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -116,7 +116,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Test</Val>
+<Val>k = 0.1 pN/nm</Val>
 </String>
 </Cluster>
 </Cluster>
