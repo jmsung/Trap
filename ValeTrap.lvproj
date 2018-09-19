@@ -37,7 +37,7 @@
 				<Item Name="PZT_oscillation.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_oscillation.vi"/>
 				<Item Name="PZT_SignalGenerator.vi" Type="VI" URL="../TrapControllers/PZT_PI/PZT_SignalGenerator.vi"/>
 			</Item>
-			<Item Name="Force.vi" Type="VI" URL="../TrapSignal/Force.vi"/>
+			<Item Name="Feedback.vi" Type="VI" URL="../TrapSignal/Feedback.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../TrapSignal/Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../TrapSignal/Logging/Logging.lvlib"/>

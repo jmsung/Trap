@@ -9,7 +9,7 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>DAQmx Input</Name>
-<Val>DAQ/ai0, DAQ/ai3, DAQ/ai1, DAQ/ai4, DAQ/ai2, DAQ/ai5, DAQ/ai16, DAQ/ai6, DAQ/ai17, DAQ/ai21, DAQ/ai18, DAQ/ai22, DAQ/ai19, DAQ/ai27, DAQ/ai20, DAQ/ai28</Val>
+<Val>DAQ/ai0, DAQ/ai3, DAQ/ai1, DAQ/ai4, DAQ/ai2, DAQ/ai5, DAQ/ai16, DAQ/ai7, DAQ/ai17, DAQ/ai21, DAQ/ai18, DAQ/ai22, DAQ/ai19, DAQ/ai27, DAQ/ai20, DAQ/ai28, DAQ/ai6, DAQ/ai29</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>Y:\Project - Dynein\Data\2018\18-09-07 Trap 1066 SA0p8\M2_stall.tdms</Val>
+<Val>Y:\Project - Dynein\Data\2018\18-09-18 Feedback test with PZT\Test6_Y 8nm_Min 0pN.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -47,39 +47,39 @@
 <Dimsize>16</Dimsize>
 <String>
 <Name>String</Name>
-<Val>Ch0_QPD_x</Val>
+<Val>QPDx</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch1_QPD_y</Val>
+<Val>QPDy</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch2_QPD_s</Val>
+<Val>QPDs</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch3_PZT_x</Val>
+<Val>PZTx</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch4_PZT_y</Val>
+<Val>PZTy</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch5_PZT_z</Val>
+<Val>PZTz</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch6_MTA_x</Val>
+<Val>MTAx</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Ch7_MTA_y</Val>
+<Val>MTAy</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val></Val>
+<Val>Trap</Val>
 </String>
 <String>
 <Name>String</Name>
@@ -112,11 +112,11 @@
 </Array>
 <String>
 <Name>Author</Name>
-<Val>Jongmin</Val>
+<Val>JS</Val>
 </String>
 <String>
 <Name>Description</Name>
-<Val>k = 0.1 pN/nm</Val>
+<Val>Feedback test with PZT 8 nm step.</Val>
 </String>
 </Cluster>
 </Cluster>
