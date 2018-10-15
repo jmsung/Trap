@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>Y:\Project - Dynein\Data\2018\18-09-18 Feedback test with PZT\Test6_Y 8nm_Min 0pN.tdms</Val>
+<Val>Y:\Project - Dynein\Data\2018\18-10-01 Trap 1067\Trap1_Motor1.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -116,7 +116,7 @@
 </String>
 <String>
 <Name>Description</Name>
-<Val>Feedback test with PZT 8 nm step.</Val>
+<Val></Val>
 </String>
 </Cluster>
 </Cluster>
