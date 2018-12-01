@@ -42,8 +42,8 @@
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../TrapSignal/Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../TrapSignal/Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../TrapSignal/Settings/Settings.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../TrapSignal/Main.vi"/>
 		<Item Name="Trap_Labview_Python.py" Type="Document" URL="../Python_Integration_Toolkit/Trap_Labview_Python.py"/>
+		<Item Name="Main.vi" Type="VI" URL="../TrapSignal/Main.vi"/>
 		<Item Name="TrapControllers.vi" Type="VI" URL="../TrapControllers/TrapControllers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
