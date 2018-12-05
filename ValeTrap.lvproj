@@ -43,8 +43,8 @@
 		<Item Name="Logging.lvlib" Type="Library" URL="../TrapSignal/Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../TrapSignal/Settings/Settings.lvlib"/>
 		<Item Name="Trap_Labview_Python.py" Type="Document" URL="../Python_Integration_Toolkit/Trap_Labview_Python.py"/>
-		<Item Name="Main.vi" Type="VI" URL="../TrapSignal/Main.vi"/>
 		<Item Name="TrapControllers.vi" Type="VI" URL="../TrapControllers/TrapControllers.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../TrapSignal/Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
