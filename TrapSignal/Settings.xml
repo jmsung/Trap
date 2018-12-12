@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>20000.00000000000000</Val>
+<Val>2000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Box Sync\Research\Python\Project\Trap\18-12-04 Calibration\3_Bead3_Height\Y_H1000.tdms</Val>
+<Val>C:\Users\Valelab\Box Sync\Research\Python\Project\Trap\18-12-07 1067_HFS\Slide1_ATP1mM\Mol1_P100%_Triangle_fd100Hz_Ad200nm\Data.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
