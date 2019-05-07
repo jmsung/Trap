@@ -21,7 +21,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>10000.00000000000000</Val>
+<Val>20000.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -35,7 +35,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Valelab\Box Sync\Research\Project\Trap_Motor\19-02-26 HFS-Square_1067_SA0.5um\Slide1_ATP50um\Bead2_fs10kHz_fd1Hz_Ad200nm\Data.tdms</Val>
+<Val>C:\Users\Valelab\Box Sync\Research\Projects\trap_analysis\data\raw\trap_motor_data\19-03-27 Trap-Stroke 1067\Slide2_1067by40_ATP12uM\Bead1\Data.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
